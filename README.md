@@ -10,11 +10,11 @@ This project demonstrates **end-to-end full-stack AI development** including ML 
 
 ### 🌐 Streamlit App (Frontend)
 
-👉 [https://your-streamlit-link](https://movie-recommendation-ai-ml.streamlit.app/)
+👉 https://movie-recommendation-ai-ml.streamlit.app/
 
 ### ⚡ FastAPI Backend (API Docs)
 
-👉 [https://your-render-backend-link/docs](https://movie-recommendation-ai-wdt8.onrender.com/docs)
+👉 https://movie-recommendation-ai-wdt8.onrender.com/docs
 
 > ⚠️ Note: Backend is hosted on free tier (Render). First request may take ~30 seconds to wake up.
 
