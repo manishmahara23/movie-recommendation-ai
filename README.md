@@ -2,51 +2,76 @@
 
 An intelligent **Movie Recommendation System** built using **Machine Learning, FastAPI, and Streamlit** that suggests similar movies and fetches real-time posters using the TMDB API.
 
-This project demonstrates end-to-end AI development including ML model integration, API development, and an interactive frontend.
+This project demonstrates **end-to-end full-stack AI development** including ML model integration, REST API development, cloud deployment, and an interactive frontend.
 
 ---
 
-## 🚀 Features
+# 🚀 Live Demo
 
-* 🔍 Search any movie
+### 🌐 Streamlit App (Frontend)
+
+👉 [https://your-streamlit-link](https://movie-recommendation-ai-ml.streamlit.app/)
+
+### ⚡ FastAPI Backend (API Docs)
+
+👉 [https://your-render-backend-link/docs](https://movie-recommendation-ai-wdt8.onrender.com/docs)
+
+> ⚠️ Note: Backend is hosted on free tier (Render). First request may take ~30 seconds to wake up.
+
+---
+
+# 🧠 Features
+
+* 🔍 Search any movie instantly
 * 🎯 Get top similar movie recommendations
-* 🖼 Fetch movie posters from TMDB API
-* ⚡ FastAPI backend for high-speed responses
+* 🖼 Fetch real-time posters from TMDB API
+* ⚡ FastAPI backend for fast responses
 * 💻 Interactive Streamlit UI
 * 🤖 Content-based recommendation system using cosine similarity
+* 🌐 Fully deployed (Frontend + Backend)
 
 ---
 
-## 🧠 Tech Stack
+# 🧠 Tech Stack
 
-**Backend**
+## 🔹 Backend
 
 * FastAPI
 * Python
 * REST APIs
 
-**Frontend**
+## 🔹 Frontend
 
 * Streamlit
 
-**Machine Learning**
+## 🔹 Machine Learning
 
 * Pandas
 * NumPy
 * Scikit-learn
+* TF-IDF Vectorization
 * Cosine Similarity
 
-**Other Tools**
+## 🔹 Other Tools
 
 * TMDB API
 * Pickle
 * Git & GitHub
+* Render (Backend deployment)
+* Streamlit Cloud (Frontend deployment)
 
 ---
 
-## 📂 Project Structure
+# 🏗 System Architecture
 
-```
+User → Streamlit UI → FastAPI Backend → ML Model → TMDB API → Response → UI
+
+This project follows a **production-level architecture** by separating ML logic into a backend API and connecting it to a frontend interface.
+
+---
+
+# 📂 Project Structure
+
 MovieRecommendation/
 │
 ├── app.py               # Streamlit frontend
@@ -56,97 +81,79 @@ MovieRecommendation/
 ├── tfidf_matrix.pkl     # tfidf matrix
 ├── indices.pkl          # movie indices mapping
 ├── requirements.txt
+├── runtime.txt          # python version for deployment
+├── .python-version
 ├── .env                 # TMDB API key (not pushed)
 └── README.md
-```
 
 ---
 
-## ⚙️ Setup & Run Locally
+# ⚙️ Run Locally
 
-### 1️⃣ Clone repository
+## 1️⃣ Clone repository
 
-```
 git clone https://github.com/manishmahara23/movie-recommendation-ai.git
 cd movie-recommendation-ai
-```
 
-### 2️⃣ Create virtual environment
+## 2️⃣ Create virtual environment
 
-```
 python -m venv .venv
 .venv\Scripts\activate
-```
 
-### 3️⃣ Install dependencies
+## 3️⃣ Install dependencies
 
-```
 pip install -r requirements.txt
-```
 
-### 4️⃣ Add TMDB API key
+## 4️⃣ Add TMDB API key
 
-Create `.env` file in root folder and add:
+Create `.env` file and add:
 
-```
 TMDB_API_KEY=your_api_key_here
-```
 
-Get API key from: https://www.themoviedb.org/settings/api
+Get API key from:
+https://www.themoviedb.org/settings/api
 
-### 5️⃣ Run FastAPI backend
+---
 
-```
+## 5️⃣ Run FastAPI backend
+
 uvicorn main:app --reload
-```
 
 Open:
-
-```
 http://127.0.0.1:8000/docs
-```
 
-### 6️⃣ Run Streamlit frontend
+## 6️⃣ Run Streamlit frontend
 
 Open new terminal:
 
-```
 streamlit run app.py
-```
 
 Open:
-
-```
 http://localhost:8501
-```
 
 ---
 
-## 📸 Demo Preview
+# 💡 Future Improvements
 
-(Add screenshots here after running project)
-
-Suggested screenshots:
-
-* Homepage UI
-* Movie recommendation results
-* FastAPI docs
-
----
-
-## 💡 Future Improvements
-
-* User login & authentication
+* User authentication system
 * Collaborative filtering
-* Deploy on cloud (Render/Streamlit cloud)
-* Add watchlist feature
-* Improve recommendation accuracy using deep learning
+* Watchlist feature
+* Hybrid recommendation system
+* Deep learning recommendations
+* Docker deployment
 
 ---
 
-## 🧑‍💻 Author
+# 🧑‍💻 Author
 
 **Manish Mahara**
 Aspiring Software Developer | AI/ML Enthusiast
 
-GitHub: https://github.com/manishmahara23
+GitHub:
+https://github.com/manishmahara23
+
+---
+
+# ⭐ If you like this project
+
+Give it a star on GitHub — it helps!
