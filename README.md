@@ -1,4 +1,4 @@
-# 🎬 AI Movie Recommendation System
+#  AI Movie Recommendation System
 
 An intelligent **Movie Recommendation System** built using **Machine Learning, FastAPI, and Streamlit** that suggests similar movies and fetches real-time posters using the TMDB API.
 
@@ -6,33 +6,33 @@ This project demonstrates **end-to-end full-stack AI development** including ML 
 
 ---
 
-# 🚀 Live Demo
+#  Live Demo
 
-### 🌐 Streamlit App (Frontend)
+###  Streamlit App (Frontend)
 
-👉 https://movie-recommendation-ai-ml.streamlit.app/
+ https://movie-recommendation-ai-ml.streamlit.app/
 
 ### ⚡ FastAPI Backend (API Docs)
 
-👉 https://movie-recommendation-ai-wdt8.onrender.com/docs
+ https://movie-recommendation-ai-wdt8.onrender.com/docs
 
-> ⚠️ Note: Backend is hosted on free tier (Render). First request may take ~30 seconds to wake up.
-
----
-
-# 🧠 Features
-
-* 🔍 Search any movie instantly
-* 🎯 Get top similar movie recommendations
-* 🖼 Fetch real-time posters from TMDB API
-* ⚡ FastAPI backend for fast responses
-* 💻 Interactive Streamlit UI
-* 🤖 Content-based recommendation system using cosine similarity
-* 🌐 Fully deployed (Frontend + Backend)
+>  Note: Backend is hosted on free tier (Render). First request may take ~30 seconds to wake up.
 
 ---
 
-# 🧠 Tech Stack
+#  Features
+
+*  Search any movie instantly
+*  Get top similar movie recommendations
+*  Fetch real-time posters from TMDB API
+*  FastAPI backend for fast responses
+*  Interactive Streamlit UI
+*  Content-based recommendation system using cosine similarity
+*  Fully deployed (Frontend + Backend)
+
+---
+
+#  Tech Stack
 
 ## 🔹 Backend
 
@@ -62,7 +62,7 @@ This project demonstrates **end-to-end full-stack AI development** including ML 
 
 ---
 
-# 🏗 System Architecture
+#  System Architecture
 
 User → Streamlit UI → FastAPI Backend → ML Model → TMDB API → Response → UI
 
@@ -70,7 +70,7 @@ This project follows a **production-level architecture** by separating ML logic 
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 MovieRecommendation/
 │
@@ -88,23 +88,23 @@ MovieRecommendation/
 
 ---
 
-# ⚙️ Run Locally
+#  Run Locally
 
-## 1️⃣ Clone repository
+##  Clone repository
 
 git clone https://github.com/manishmahara23/movie-recommendation-ai.git
 cd movie-recommendation-ai
 
-## 2️⃣ Create virtual environment
+##  Create virtual environment
 
 python -m venv .venv
 .venv\Scripts\activate
 
-## 3️⃣ Install dependencies
+##  Install dependencies
 
 pip install -r requirements.txt
 
-## 4️⃣ Add TMDB API key
+##  Add TMDB API key
 
 Create `.env` file and add:
 
@@ -115,14 +115,14 @@ https://www.themoviedb.org/settings/api
 
 ---
 
-## 5️⃣ Run FastAPI backend
+##  Run FastAPI backend
 
 uvicorn main:app --reload
 
 Open:
 http://127.0.0.1:8000/docs
 
-## 6️⃣ Run Streamlit frontend
+##  Run Streamlit frontend
 
 Open new terminal:
 
@@ -133,7 +133,7 @@ http://localhost:8501
 
 ---
 
-# 💡 Future Improvements
+#  Future Improvements
 
 * User authentication system
 * Collaborative filtering
@@ -144,7 +144,7 @@ http://localhost:8501
 
 ---
 
-# 🧑‍💻 Author
+#  Author
 
 **Manish Mahara**
 Aspiring Software Developer | AI/ML Enthusiast
